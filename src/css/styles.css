@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* adjust typography defaults */
+
+body {
+    /*   margin: 1rem; */
+    font-family: Poppins, sans-serif;
+    line-height: 1.5;
+    color: #2e2e2e;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* images and videos max out at full width */
+/* img,
+video {
+  height: auto;
+  max-width: 100%;
+} */
+
+.hero--title {
+    color: purple;
+
+}
+
+.hero--title span {
+    display: inline-block;
+}
+
+.btn-purple {
+    color: purple;
+    background: white;
+    border: solid 1px purple;
+}
+
+.btn-purple:hover {
+    background: purple;
+    color: white;
+}
+
+.leaflet-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 400px;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.course-item-img-div {
+    height: 75px;
+    /*   border: 1px solid black; */
+}
+
+footer {
+    background-color: #2e2e2e;
+    color: ivory;
+  text-align: center;
+  margin: 0;
+  padding-top: 1.5em;
+  border-top: 1px solid red;
+}
+
+.card-info {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.bg-1 {
+    background: #7CC85C;
+    color: white;
+}
+
+.bg-2 {
+    background: #51A4DC;
+    color: white;
+}
+
+.bg-3 {
+    background: #15BCAC;
+    color: white;
+}
+
+.bg-4 {
+    background: #FDDD42;
+    color: white;
+}
+
+.bg-5 {
+    background: #FFBD5C;
+    color: white;
+}
+
+.jpfont {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.ikeda {
+    background-color: #FDDD42;
+}
+
+.toyono {
+    background-color: #7CC85C;
+}
+
+.modal-content {
+    background-color: white;
+    color: black;
+}
+
+.modal-content a {
+    color: purple;
+}
+
+.modal-content a:hover {
+    color: violet;
+}
+
+
+
+.table-container {
+    width: 100%;
+    max-width: 900px;
+}
+
+.caret {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-bottom: .15em solid #2e2e2e;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        blink-caret 1s step-end 10;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #2e2e2e;
+    }
+}
+
+.feature-icon {
+    font-size: 3rem;
+}

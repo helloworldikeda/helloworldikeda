@@ -1,0 +1,32 @@
+---
+title: "カリキュラム｜英会話"
+layout: "layouts/base.njk"
+date: "2020-03-23"
+tags: "UX"
+---
+
+
+<main class="container">
+
+    <div class="container mt-4 mb-4">
+        <div id="class-container" class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- content here -->
+            {% for item in engclasses %}
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/{{ item.img | url}}"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ item.title }}</h5>
+                            <p>{{ item.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                
+            {% endfor %}
+            
+        </div>
+    </div>
+
+</main>

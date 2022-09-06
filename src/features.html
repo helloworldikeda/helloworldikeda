@@ -1,0 +1,21 @@
+---
+title: "特徴"
+layout: "layouts/base.njk"
+date: "2020-03-23"
+tags: "UX"
+---
+<div class="container px-4 py-5" id="icon-grid">
+    <div id="feature-container" class=" row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <!-- each feature -->
+        {% for feature in features %}
+        <!--  newListItem -->
+        <div class="col d-flex align-items-start">
+            <i class="bi feature-icon flex-shrink-0 me-3 {{ feature.icon }}"></i>
+            <div>
+                <h4 class="fw-bold mb-0">{{ feature.title }}</h4>
+                <p>{{ feature.description }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

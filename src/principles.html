@@ -1,0 +1,23 @@
+---
+title: "理念"
+layout: "layouts/base.njk"
+date: "2020-03-23"
+tags: "UX"
+---
+
+<div class="container mt-4">
+    <div id="principles-container">
+        <!-- content here -->
+        {% for principle in principles %}
+        <div class="col">
+            <div class="card mb-3 h-100 bg-{{ principle.id }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ principle.title }}</h5>
+                    <p>{{ principle.description }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        
+    </div>
+</div>
