@@ -123,16 +123,16 @@ footer {
     background-color: #7CC85C;
 }
 
-.modal-content {
-    background-color: white;
+.sns-content {
+    
     color: black;
 }
 
-.modal-content a {
+.sns-content a {
     color: purple;
 }
 
-.modal-content a:hover {
+.sns-content a:hover {
     color: violet;
 }
 
