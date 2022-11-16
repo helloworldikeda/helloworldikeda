@@ -107,6 +107,10 @@ footer {
     color: white;
 }
 
+ .bg-1 .text-muted {
+    color:black !important;
+}
+
 .jpfont {
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -138,6 +142,8 @@ footer {
     width: 100%;
     max-width: 900px;
 }
+
+
 
 .caret {
     overflow: hidden;
