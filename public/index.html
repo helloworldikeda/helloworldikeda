@@ -90,7 +90,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/schedule" class="nav-link">時間割
+                                <a href="/schedule" class="nav-link">スケジュール
                                 </a>
                             </li>
 
@@ -122,17 +122,46 @@
 
         
 <div class="container min-vh-100 col-lg-12 d-flex flex-row">
-        <div class="row flex-grow-1 flex-lg-row-reverse align-items-center g-5">
-            <!-- text column-->
+        <div class="row flex-grow-1 flex-lg-row-reverse align-items-center ">
+            <!-- image column-->
+            <!--
             <div class="col-lg-6">
                 <img src="images/hero-image.svg"
                     class="d-block mx-lg-auto img-fluid" alt="a code teacher" width="1920" height="1080"
                     loading="lazy" />
 
             </div>
+            -->
+            <!-- carousel -->
+            <div class="col-lg-6">
+            <div id="carousel" class="carousel slide carousel-fade mb-3" data-bs-touch="false" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active"  data-bs-interval="5000">
+                        <img src="images/class1.jpg" class="carousel-img d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item"  data-bs-interval="5000">
+                        <img src="images/scratchlesson.jpeg" class="carousel-img d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item"  data-bs-interval="5000">
+                        <img src="images/studentd.jpeg" class="carousel-img d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item"  data-bs-interval="5000">
+                        <img src="images/studentr2.png" class="carousel-img d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item"  data-bs-interval="5000">
+                        <img src="images/event2.jpg" class="carousel-img  d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item"  data-bs-interval="5000">
+                        <img src="images/event3.jpg" class="carousel-img  d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
             <!-- text column-->
             <div class="col-lg-6">
-                <h1 class="hero--title display-3 fw-bold lh-1 mb-3">
+                <h1 class="hero--title display-4 fw-bold lh-1 mb-3">
                     英語や
                     プログラミングで
                     自分を表現してみよう！
@@ -142,9 +171,14 @@
                     今日から一緒に始めましょう。全てネイティブ講師が担当！
                     コース内容やスクールについてご覧ください。
                 </p>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-check-circle-fill pe-2"></i>池田駅より徒歩４分。池田市役所の隣、池田小学校前</li>
+                    <li><i class="bi bi-check-circle-fill pe-2"></i>子供英会話グループレッスン月４回9,900円</li>
+                    <li><i class="bi bi-check-circle-fill pe-2"></i>ネイティブ講師による全て英語でのレッスン</li>
+                </ul>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                     <a href="/courses" role="button" class="btn btn-purple btn-lg px-4 me-md-2">コース</a>
-                    <a href="/features" role="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">特徴</a>
+                    <a href="/features" role="button" class="btn btn-outline-dark btn-lg px-4 me-md-2">特徴</a>
                 </div>
             </div>
         </div>

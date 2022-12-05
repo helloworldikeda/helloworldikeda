@@ -9,11 +9,11 @@ tags: "UX"
         <!-- each feature -->
         {% for feature in features %}
         <!--  newListItem -->
-        <div class="col d-flex align-items-start">
+        <div class="col d-flex align-items-start feature">
             <i class="bi feature-icon flex-shrink-0 me-3 {{ feature.icon }}"></i>
             <div>
-                <h4 class="fw-bold mb-0">{{ feature.title }}</h4>
-                <p>{{ feature.description }}</p>
+                <h4 class="fw-bold mb-0 feature-title">{{ feature.title }}</h4>
+                <p class="feature-description">{{ feature.description }}</p>
             </div>
         </div>
         {% endfor %}

@@ -30,9 +30,13 @@ video {
   height: auto;
   max-width: 100%;
 } */
+.carousel-img {
+    width: auto;
+    height: 100%;
+}
 
 .hero--title {
-    color: purple;
+    color: #7CC85C;
 
 }
 
@@ -41,13 +45,13 @@ video {
 }
 
 .btn-purple {
-    color: purple;
+    color: #c51a4a;
     background: white;
-    border: solid 1px purple;
+    border: solid 1px #c51a4a;
 }
 
 .btn-purple:hover {
-    background: purple;
+    background: #c51a4a;
     color: white;
 }
 
@@ -69,6 +73,14 @@ video {
     /*   border: 1px solid black; */
 }
 
+/*  feature */
+.feature-title {
+    color: #7CC85C;
+}
+/* .feature-icon {
+    color: #c51a4a;
+} */
+
 footer {
     background-color: #2e2e2e;
     color: ivory;
@@ -80,6 +92,7 @@ footer {
 
 .card-info {
     font-family: 'Noto Sans JP', sans-serif;
+    color: #7CC85C;
 }
 
 .bg-1 {
@@ -129,14 +142,22 @@ footer {
 }
 
 .sns-content a {
-    color: purple;
+    color: black;
 }
 
 .sns-content a:hover {
-    color: violet;
+    color: #c51a4a;
 }
 
 
+
+.other-fees {
+    color: #c51a4a;
+}
+
+.other-fees:hover {
+    color: black;
+}
 
 .table-container {
     width: 100%;
