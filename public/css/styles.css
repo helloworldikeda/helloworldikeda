@@ -96,7 +96,7 @@ footer {
 }
 
 .bg-1 {
-    background-color: #7CC85C;
+    background: #7CC85C;
     color: white;
 }
 
@@ -149,8 +149,6 @@ footer {
     color: #c51a4a;
 }
 
-
-
 .other-fees {
     color: #c51a4a;
 }
@@ -159,6 +157,9 @@ footer {
     color: black;
 }
 
+.other-fees:visited {
+    color: #c51a4a;
+}
 
 
 .carousel-item {
@@ -200,4 +201,11 @@ footer {
 
 .feature-icon {
     font-size: 3rem;
+}
+
+.table th:first-child,
+.table td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #FFF;
 }
