@@ -1,3 +1,5 @@
+const pluginSEO = require("eleventy-plugin-seo");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css/");
   eleventyConfig.addWatchTarget("./src/images/");
@@ -6,6 +8,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/images/");
   eleventyConfig.addPassthroughCopy("./src/js/");
   eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPlugin(pluginSEO, require("./src/_data/seo.json"));
+
   return {
     dir: {
       input: "src",
