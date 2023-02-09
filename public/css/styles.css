@@ -55,6 +55,18 @@ video {
     color: white;
 }
 
+.btn-cta {
+    color:white;
+    background:#c51a4a;
+    border: solid 1px #c51a4a;
+}
+
+.btn-cta:hover {
+    color: #c51a4a;
+    background: white;
+    border: solid 1px #c51a4a;
+}
+
 .leaflet-container {
     position: relative;
     width: 100%;
