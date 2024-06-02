@@ -10,11 +10,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
   eleventyConfig.addPlugin(pluginSEO, require("./src/_data/seo.json"));
+  eleventyConfig.addShortcode("protocolswitcher", () => { return process.env.ENVIRONMENT === "production" ? '<script> location.protocol === "http:" ? location.replace(window.location.href.replace("http:", "https:")</script>':""});
 
   return {
     dir: {
       input: "src",
-      output: "public",
+      output: "public"
     },
     markdownTemplateEngine: "njk",
   };
