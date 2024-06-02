@@ -1,0 +1,36 @@
+---
+title: "スクラッチコースのレベル"
+layout: "layouts/base-ja.njk"
+ogtype: website
+---
+
+
+<main class="container">
+
+    <div class="container mt-4 mb-4">
+        <div id="class-container" class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- content here -->
+            {% for class in scratchlevels %}
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/{{ class.img | url}}"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <label type="button" class="btn btn-dark fs-4">{{ class.level }}</label>
+                            <h5 class="card-title  mt-3 fs-3">{{ class.title }}</h5>
+                            
+                            <p class="card-subtitle mb-2 card-info rasp-text fs-5">{{ class.subtitle }}</p>
+                            <p class="card-subtitle mb-2 card-info">{{ class.duration }}</p>
+                            <p class="card-subtitle mb-2 card-info">{{ class.location }}</p>
+                            <p>{{ class.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                
+            {% endfor %}
+            
+        </div>
+    </div>
+
+</main>
