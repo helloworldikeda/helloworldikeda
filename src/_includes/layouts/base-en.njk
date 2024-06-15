@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% seo "" %}
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-TSW655TN56"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-TSW655TN56');
+        </script>
+        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-TSW655TN56"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-TSW655TN56');
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title }}</title>
+
+        <link id="favicon" rel="icon" href="{{ '/images/icons/favicon.svg' | url }}" type="image/x-icon"/>
+        <!-- import bootstrap stylesheet -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+        <!-- import leaflet CSS stylesheet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+        <!-- Leaflet.js - Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="/en/" class="navbar-brand">
+                        <img width="29" class="nav--logo d-inline-block align-text-bottom me-1" src="{{ '/images/icons/logo.png' | url }}"/>
+                        <!-- -->
+                        hello world<span class="caret">&nbsp&nbsp</span>
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/en/" class="nav-link active" aria-current="page">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/en/features" class="nav-link">
+                                    Features
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/en/courses" class="nav-link">
+                                    Courses
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Curriculum
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="/en/curriculum-eng">English</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/en/curriculum-prog">Programming Skills</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/en/scratchlevels">Scratch Levels</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/en/access" class="nav-link">
+                                    Access
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/en/principles" class="nav-link">Principles
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/en/schedule" class="nav-link">Schedule
+                                </a>
+                            </li>
+                             <li class="nav-item">
+                                <a href="/en/jobs" class="nav-link">Work with us
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown rasp-text">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="rasp-text">日本語 | 한국어</span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    
+                                    <li>
+                                        <a class="dropdown-item" href="/ja/">日本語</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/ko/">한국어</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <!-- end collapse-->
+
+ 
+                    <!-- start SNS-->
+                    <span class="nav-item sns-content">
+                        <a href="https://www.instagram.com/helloworld_ikeda" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-instagram fs-4 flex-shrink-0 ms-2 "></i>
+                        </a>
+                    </span>
+                    <span class="nav-item sns-content">
+                        <a href="https://line.me/ti/p/Xk4yr5s9FA" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-line fs-4 flex-shrink-0 ms-2 "></i>
+                        </a>
+                    </span>
+
+                    <span class="nav-item sns-content">
+                        <a href="tel:08022385980" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-telephone-fill fs-4 flex-shrink-0 ms-2"></i>
+                        </a>
+                    </span>
+
+                    <!-- end SNS-->
+                </div>
+            </nav>
+        </header>
+
+        {{ content | safe }}
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        {% protocolswitcher %}
+    </body>
+</html>

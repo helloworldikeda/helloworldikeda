@@ -1,6 +1,7 @@
 ---
- title: "Access" 
- layout: "layouts/base.njk"
+ title: "アクセス"
+ layout: "layouts/base-ja.njk"
+ permalink: "/access/index.html"
  ogtype: website
 ---
 
@@ -15,31 +16,31 @@
 
                 <ul class="list-group">
                 <li class="list-group-item fs-1">
-                    池田校
+                    {{ access.ikeda.school_name }}
                 </li>
                 <li class="list-group-item">
-                    月〜金 13:00 ~ 20:00
+                    {{ access.ikeda.opening_times }}
                 </li>
                     <li class="list-group-item">
                         <ul class="list-unstyled">
-                            <li>563-0025</li>
-                            <li>大阪府池田市城南1−4−１ SUビル４階</li>
-                            
+                            <li>{{ access.ikeda.postcode }}</li>
+                            <li>{{ access.ikeda.address1 }}</li>
+                            <li>{{ access.ikeda.address2 }}</li>
                         </ul>
                     </li>
                     <li class="list-group-item">
                         Email
-                        <a href="mailto:hello@helloworldikeda.com" class="text-decoration-none">hello@helloworldikeda.com</a>
+                        <a href="mailto:hello@helloworldikeda.com" class="text-decoration-none">{{ site.email }}</a>
                     </li>
                     <li class="list-group-item">
                         Tel
-                        <a href="tel:+818022385980" class="text-decoration-none">080 2238 5980</a>
+                        <a href="tel:+818022385980" class="text-decoration-none">{{ site.tel }}</a>
                     </li>
                     <li class="list-group-item">
-                        <a href="https://www.helloworldikeda.com" class="text-decoration-none">www.helloworldikeda.com</a>
+                        <a href={{ site.url }} class="text-decoration-none">helloworldikeda.com</a>
                     </li>
                     <li class="list-group-item">
-                        新規お問合せのお客様、生徒様専用電話の為セールス等はご遠慮願います。
+                        {{ access.no_sales_please }}
                     </li>
                 </ul>
             </div>
@@ -59,16 +60,16 @@
 
                 <ul class="list-group">
                 <li class="list-group-item fs-1">
-                    豊能町教室
+                    {{ access.toyono.school_name }}
                 </li>
                 <li class="list-group-item">
-                    日曜日 09:00 ~ 12:00
+                    {{ access.toyono.opening_times }}
                 </li>
                     <li class="list-group-item">
                         <ul class="list-unstyled">
-                            <li>563-0102</li>
-                            <li>大阪府豊能郡豊能町ときわ台５丁目９−３</li>
-                            <li>フリーステーション</li>
+                            <li>{{ access.toyono.postcode }}</li>
+                            <li>{{ access.toyono.address1 }}</li>
+                            <li>{{ access.toyono.address2 }}</li>
                         </ul>
                     </li>
                     
@@ -85,4 +86,4 @@
     </div>
 
 </div>
-{# {% render 'mapscript.html' %} #}
+{% include 'mapscript.html' %}

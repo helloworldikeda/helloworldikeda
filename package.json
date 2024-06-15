@@ -5,7 +5,8 @@
   "main": ".eleventy.js",
   "scripts": {
     "start": "ENVIRONMENT=development eleventy --serve",
-    "build": "ENVIRONMENT=production eleventy"
+    "build": "ENVIRONMENT=production eleventy",
+    "debug": "DEBUG=* eleventy"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,4 @@
+{ 
+    "locale": "ko",
+    "layout": "layouts/base-ko.njk"
+}

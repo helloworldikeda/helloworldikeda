@@ -67,6 +67,12 @@ video {
     border: solid 1px #c51a4a;
 }
 
+.table-button {
+    font-size: x-small;
+    margin: 0 10px;
+    border: none;
+}
+
 .leaflet-container {
     position: relative;
     width: 100%;

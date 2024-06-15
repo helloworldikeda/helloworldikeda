@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "color": "purple",
+    "icon": "bi-chat-heart-fill",
+    "title": "Programming and English",
+    "description":
+      "Programming and English classes in one place. All native English teachers."
+  },
+  {
+    "id": 2,
+    "color": "purple",
+    "icon": "bi-spellcheck",
+    "title": "English Immersion",
+    "description":
+      "All classes are taught in English. By learning something in English, it doesn't feel like studying. Tasks are designed for minimal English ability, so don't worry about your level."
+  },
+  {
+    "id": 3,
+    "color": "purple",
+    "icon": "bi-tools",
+    "title": "Project-based curriculum",
+    "description":
+      "In programming classes, you will set your own goals, work toward them, and learn the tools needed to complete each task."
+  },
+  {
+    "id": 4,
+    "color": "purple",
+    "icon": "bi-people-fill",
+    "title": "Children to Adults",
+    "description": "The curriculum is structured according to age and level, so everyone from children to adults can attend."
+  },
+  {
+    "id": 5,
+    "color": "purple",
+    "icon": "bi-person-plus-fill",
+    "title": "Group and Private Lessons",
+    "description": "You can choose to have fun lessons with your classmates in a group or intensive one-on-one learning."
+  },
+  {
+    "id": 6,
+    "color": "purple",
+    "icon": "bi-webcam-fill",
+    "title": "Online Lessons",
+    "description":
+      "Both children and adults can choose private lessons in-person or online . Group lessons are held face-to-face at the school."
+  },
+  {
+    "id": 7,
+    "color": "purple",
+    "icon": "bi-receipt-cutoff",
+    "title": "Simple Pricing",
+    "description":
+      "All prices include consumption tax. If you contact us by the day before, you can take makeup lessons within the same month. We accept cash, bank transfers and PayPay."
+  },
+  {
+    "id": 8,
+    "color": "purple",
+    "icon": "bi-laptop",
+    "title": "Learning Technology",
+    "description":
+      "Both the programming class and the English class use audio, video, and games to make learning fun. Even beginners can enjoy it."
+  }
+]

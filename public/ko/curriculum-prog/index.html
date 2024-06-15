@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <title>커리큘럼｜프로그래밍 - hello world</title>
+
+<meta name="description" content="英語でプログラミング＆英会話　ー　大阪府池田市">
+<meta name="robots" content="index,follow">
+<meta name="author" content="hello world">
+
+<link rel="canonical" href="https://helloworldikeda.com/ko/curriculum-prog/">
+
+<meta property="og:title" content="커리큘럼｜프로그래밍 - hello world">
+<meta property="og:type" content="website">
+
+<meta property="og:url" content="https://helloworldikeda.com/ko/curriculum-prog/">
+<meta property="og:description" content="英語でプログラミング＆英会話　ー　大阪府池田市">
+<meta property="og:image" content="images/ogimg.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@helloworldikeda">
+<meta name="twitter:url" content="https://helloworldikeda.com/ko/curriculum-prog/">
+<meta name="twitter:title" content="커리큘럼｜프로그래밍 - hello world">
+<meta name="twitter:description" content="英語でプログラミング＆英会話　ー　大阪府池田市">
+<meta name="twitter:image" content="images/ogimg.png">
+
+
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-TSW655TN56"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-TSW655TN56');
+        </script>
+        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-TSW655TN56"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-TSW655TN56');
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>커리큘럼｜프로그래밍</title>
+
+        <link id="favicon" rel="icon" href="/images/icons/favicon.svg" type="image/x-icon"/>
+        <!-- import bootstrap stylesheet -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+        <!-- import leaflet CSS stylesheet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+        <!-- Leaflet.js - Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <link rel="stylesheet" href="/css/styles.css">
+
+    </head>
+    <body>
+        <header>
+<!--
+- Home: 홈
+- Features: 특징
+- Courses: 강좌
+- Curriculum: 커리큘럼
+- Access: 접근
+- Principles: 원칙
+- Schedule: 일정
+-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="/ko/" class="navbar-brand">
+                        <img width="29" class="nav--logo d-inline-block align-text-bottom me-1" src="/images/icons/logo.png"/>
+                        <!-- -->
+                        hello world<span class="caret">&nbsp&nbsp</span>
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/ko/" class="nav-link active" aria-current="page">
+                                    홈
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/ko/features" class="nav-link">
+                                    특징
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/ko/courses" class="nav-link">
+                                    강좌
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    커리큘럼
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="/ko/curriculum-eng">영어 수업</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/ko/curriculum-prog">프로그래밍 기술
+</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/ko/scratchlevels">스크래치 레벨</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/ko/access" class="nav-link">
+                                    접근
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/ko/principles" class="nav-link">
+                                원칙
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/ko/schedule" class="nav-link">
+                                일정
+                                </a>
+                            </li>
+                             <li class="nav-item">
+                                <a href="/ko/jobs" class="nav-link">Work with us
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="rasp-text">English | 日本語</span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    
+                                    <li>
+                                        <a class="dropdown-item" href="/">English</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/ja/">日本語</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- end collapse-->
+                    
+                    <!-- start SNS-->
+                    <span class="nav-item sns-content">
+                        <a href="https://www.instagram.com/helloworld_ikeda" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-instagram fs-4 flex-shrink-0 ms-2 "></i>
+                        </a>
+                    </span>
+                    <span class="nav-item sns-content">
+                        <a href="https://line.me/ti/p/Xk4yr5s9FA" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-line fs-4 flex-shrink-0 ms-2 "></i>
+                        </a>
+                    </span>
+
+                    <span class="nav-item sns-content">
+                        <a href="tel:+818022385980" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-telephone-fill fs-4 flex-shrink-0 ms-2"></i>
+                        </a>
+                    </span>
+
+                    <!-- end SNS-->
+                </div>
+            </nav>
+        </header>
+
+        
+
+<main class="container">
+
+    <div class="container mt-4 mb-4">
+        <div id="class-container" class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- content here -->
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/algorithms.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">알고리즘</h5>
+                            <p>알고리즘은 계산이나 문제 해결을 위한 명확하게 정의된 절차의 집합입니다. 프로그래밍에서 알고리즘은 특정 작업이나 문제를 해결하기 위한 절차나 과정의 일련을 의미합니다. 컴퓨터가 이해하고 실행할 수 있는 형태로 표현되며, 정확하고 효율적인 문제 해결을 가능하게 합니다. 알고리즘은 프로그래밍의 기본적인 개념이며, 학습자들이 논리적으로 사고하고, 작업에 적절하게 대처하는 능력을 키우는데 중요합니다. 프로그래밍에서 알고리즘은 순차, 선택, 반복이라는 세 가지 기본적인 제어 구조를 사용하여 표현할 수 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/sequencing.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">순차</h5>
+                            <p>순차는 프로그램 내에서 특정 작업을 정확하게 수행하기 위해 순서대로 정렬된 절차나 명령의 집합을 의미합니다. 프로그래밍에서 순차는 각 단계가 순서대로 실행되도록 하는 데 사용됩니다. 이 개념은 컴퓨터에 특정 순서로 명령을 내려 원하는 결과를 얻는 데 중요합니다. 순차는 프로그래밍의 기본적인 개념이며, 학습자들이 프로그램의 논리를 이해하고, 작업을 적절하게 처리하는 능력을 키우는 데 필수적입니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/selection.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">선택 (Selection)</h5>
+                            <p>선택은 프로그래밍에서 중요한 개념으로, 특정 조건에 따라 프로그램이 다양한 동작이나 절차를 수행할 수 있는 능력을 의미합니다. 조건 분기라고도 불리며, 이를 통해 프로그램은 특정 조건이 참인지 거짓인지에 따라 다른 경로를 선택합니다. 선택의 개념은 프로그램이 유연하고 동적인 동작을 보여주는 데 필수적이며, 알고리즘 및 프로그램 내에서 문제 해결을 위한 효과적인 수단을 제공합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/iteration.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">반복 (Iteration)</h5>
+                            <p>프로그래밍에서 반복은 동일한 일련의 작업을 반복적으로 수행하는 것을 의미합니다. 마치 반복 버튼을 누르는 것과 같습니다: 특정 조건이 충족되면 동일한 일련의 명령을 계속 실행합니다. 이를 통해 작업이 체계화되고 동일한 명령을 반복적으로 작성하는 번거로움을 줄일 수 있습니다. 반복을 코딩에 도입함으로써 프로그램이 더욱 유연해지고 다양한 종류의 문제에 대처할 수 있게 됩니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/userinteraction.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">사용자 상호 작용</h5>
+                            <p>사용자 상호 작용은 Scratch 프로젝트에서 프로젝트가 사용자와 소통하고 사용자 입력 및 작업에 반응하는 기능을 의미합니다. Scratch에서는 다양한 블록을 사용하여 키보드 입력, 마우스 클릭 및 기타 이벤트에 대한 프로젝트의 반응을 프로그래밍할 수 있습니다. 사용자 상호 작용을 도입함으로써 프로젝트를 매력적이고 사용하기 쉽게 만들 수 있으며 사용자가 애니메이션, 게임 또는 스토리와 같은 작품에 참여할 수 있도록 합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/variables.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">변수 (Variables)</h5>
+                            <p>프로그래밍에서 변수는 정보를 저장하거나 변경하는 데 사용되는 용기와 같습니다. 숫자, 단어와 같은 데이터를 저장하고 계산, 업데이트와 같은 작업을 수행할 수 있습니다. 예를 들어, 게임 점수를 추적하거나 무언가의 위치를 기억하기 위해 변수를 사용할 수 있습니다. 변수는 프로그래밍을 더욱 유연하고 다목적으로 만드는 유용한 도구입니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/functions.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">함수 (My Blocks)</h5>
+                            <p>함수 (My Blocks)는 Scratch 프로젝트에서 유용한 개념입니다. 동일한 코드를 반복적으로 사용할 수 있도록 합니다. 함수를 만들면 여러 줄의 코드를 하나의 블록으로 묶어 프로젝트 내에서 여러 번 사용할 수 있습니다. 예를 들어, 특정 작업이나 계산을 수행하는 함수를 만들어 필요한 경우 사용할 수 있습니다. 이를 통해 프로그램이 더욱 정리되고 대규모 프로젝트를 관리하기 쉬워집니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/parallelism.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">병렬 처리 (parallelism)</h5>
+                            <p>병렬 처리(parallelism)는 프로그래밍 프로젝트에서 여러 작업을 동시에 수행하는 것을 의미합니다. Scratch에서는 서로 다른 코드 블록이 동시에 작동함으로써 이루어집니다. 예를 들어, 여러 캐릭터가 동시에 움직이거나 여러 이벤트가 동시에 발생하는 경우에 이러한 상황이 발생합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/datastructures.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">데이터 구조 (data structures)</h5>
+                            <p>프로그래밍에서 데이터 구조는 정보를 구성하고 관리하는 데 도움이 됩니다. Scratch와 같은 코딩 환경에서는 리스트와 변수를 사용하여 다양한 유형의 데이터를 구조화할 수 있습니다. 예를 들어, 이를 통해 캐릭터의 위치나 게임 점수를 쉽게 관리할 수 있습니다. 데이터 구조를 이해하면 프로그램의 효율성이 향상되고 복잡한 작업 처리가 용이해집니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/debugging.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">디버깅</h5>
+                            <p>디버깅은 프로그래밍의 일련의 프로세스입니다. 프로그램 내의 오류나 문제를 식별하고 수정하는 작업을 의미합니다. Scratch에서는 블록의 정확한 배치와 프로젝트 내 조건 확인에 초점을 맞춥니다. 오류가 발생하면 디버깅에는 그 원인을 파악하고 적절한 수정 작업을 수행하는 것이 포함됩니다. 디버깅을 이해하면 프로젝트가 원활하게 작동하고 원하는 결과를 얻을 수 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/codeorg.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">코드 구조화</h5>
+                            <p>코드 구조화는 프로그래밍에서 중요한 개념입니다. 이는 코드를 정리하고 이해하기 쉽고 유지 관리하기 쉬운 형태로 만들 것을 의미합니다. 코드를 작은 모듈이나 함수로 분할하고 관련 부분을 그룹화하여 효과적인 구조를 구축합니다. 이러한 방식으로 프로그램은 더욱 직관적으로 이해할 수 있고, 앞으로 발생할 변경에도 유연하게 대응할 수 있게 됩니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/oop.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">객체 지향 프로그래밍</h5>
+                            <p>객체 지향 프로그래밍(OOP)에서 "객체"는 특정한 동작이나 특징을 가진 것을 의미합니다. Scratch 프로젝트에서는 스프라이트나 복제본 등이 각자 고유한 동작과 특성을 가지고 있습니다. 각 스프라이트나 복제본은 메시지 교환을 통해 소통할 수 있도록 OOP의 객체처럼 생각할 수 있습니다. 이를 통해 Scratch 프로젝트 내에서 OOP의 특징인 정리된 패키징으로의 담기와 상호 작용이 표현됩니다.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+            
+        </div>
+    </div>
+
+</main>
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+    </body>
+</html>

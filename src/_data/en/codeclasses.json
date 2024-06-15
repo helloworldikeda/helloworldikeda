@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "title": "Kids Coding Course",
+        "description": "Learn the basics of programming and computer science with the Scratch block-based programming language.",
+        "duration": "50 mins, 4 times a month",
+        "price": "9900yen (incl. tax)",
+        "img": "kidsCodingClass.png",
+        "location": "Group lesson, in-person"
+    },
+   {
+        "id": 2,
+        "title": "Kids English Course",
+        "description": "Everyday English and English for programming. English support for programming courses taught in English. Available as a standalone course or bundled with a programming course.",
+        "duration": "50 mins, 4 times a month",   
+        "price": "9900yen (incl. tax)",
+        "img": "neweng.png",
+        "location": "in-person"
+    },
+    {
+        "id": 3,
+        "title": "Kids Coding + English Bundle",
+        "description": "Taking a coding class togther with an English class gives you all the benefits of both and is cheaper than taking each course individually.",
+        "duration": "Coding 50mins + English 50mins, 4 times a month",   
+        "price": "16,500yen (incl. tax)",
+        "img": "newbundle.png",
+        "location": "in-person"
+    },
+      {
+        "id": 4,
+        "title": "Private Lesson 4 times a month",
+        "description": "For one-on-one support with English or programming. Choose the content and pace.",
+        "duration": "50 mins, 4 times a month",   
+        "price": "16,500yen (incl. tax)",
+        "img": "newadultEngClass4times2.png",
+        "location": "in-person or online"
+    },
+      {
+        "id": 5,
+        "title": "Private Lesson 2 times a month",
+        "description": "For those who would like to study privately but don't have time to study every week.",
+        "duration": "50 mins, 2 times a month",   
+        "price": "9900yen (incl. tax)",
+        "img": "newadultEngClass2times2.png",
+        "location": "in-person or online"
+    },
+      {
+        "id": 6,
+        "title": "Adult English Group Lesson",
+        "description": "It's fun to learn English in a group and more affordable than taking private lessons.",
+        "duration": "50 mins, 4 times a month",   
+        "price": "11,000yen (incl. tax)",
+        "img": "newadultEngClassGroup2.png",
+        "location": "in-person"
+    }
+]
+

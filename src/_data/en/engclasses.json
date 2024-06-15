@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "everybodyup.png",
+        "title": "Elementary Kids",
+        "description": "We use the 2nd edition of the EverbodyUp series by Oxford University Press. There are 7 books in 4 levels from starter to level 6. The target age group is 5 to 13 years old. In this series, we will talk to students about the real world while developing basic English and developing their ability to express themselves."
+    },
+    {
+        "id": 2,
+        "img": "interchange.jpeg",
+        "title": "Junior High School Kids to Adults - Beginner to Intermediate",
+        "description": "We use the 5th edition of the Interchange series by Cambridge University Press. It offers a communicative approach, flexible unit structure and digital support. Every unit in Interchange Fifth Edition includes a variety of exercises in conversation, grammar, pronunciation, speaking, listening, writing, reading, and more, each with a specific topic and grammar points."
+    },
+    {
+        "id": 3,
+        "img": "articles.png",
+        "title": "Advanced",
+        "description": "The advanced course consists of discussion-based lessons using English newspaper articles, short stories, and non-fiction to maintain and improve your English proficiency."
+    }
+]

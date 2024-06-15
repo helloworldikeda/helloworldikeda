@@ -1,0 +1,88 @@
+---
+ title: "접근"
+ permalink: "/{{ locale }}/access/index.html"
+ ogtype: website
+---
+
+
+
+<div class="container col-xxl-8 ">
+    <div class="row ikeda flex-lg-row-reverse align-items-center g-5 py-5 mb-5">
+
+        <!-- address column -->
+        <div class="col-lg-6 py-5">
+            <div>
+
+                <ul class="list-group">
+                <li class="list-group-item fs-1">
+                    {{ ko.access.ikeda.school_name }}
+                </li>
+                <li class="list-group-item">
+                    {{ ko.access.ikeda.opening_times }}
+                </li>
+                    <li class="list-group-item">
+                        <ul class="list-unstyled">
+                            <li>{{ ko.access.ikeda.postcode }}</li>
+                            <li>{{ ko.access.ikeda.address1 }}</li>
+                            <li>{{ ko.access.ikeda.address2 }}</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        Email
+                        <a href="mailto:hello@helloworldikeda.com" class="text-decoration-none">{{ site.email }}</a>
+                    </li>
+                    <li class="list-group-item">
+                        Tel
+                        <a href="tel:+818022385980" class="text-decoration-none">{{ site.tel }}</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href={{ site.url }} class="text-decoration-none">helloworldikeda.com</a>
+                    </li>
+                    <li class="list-group-item">
+                        {{ ko.access.no_sales_please }}
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- map column -->
+        <div class="col-lg-6">
+
+            <div id="map"></div>
+            
+        </div>
+    </div>
+    <!-- second row-->
+    <div class="row toyono flex-lg-row-reverse align-items-center g-5 py-5 mt-1">
+        <!-- address column 2-->
+        <div class="col-lg-6">
+            <div>
+
+                <ul class="list-group">
+                <li class="list-group-item fs-1">
+                    {{ ko.access.toyono.school_name }}
+                </li>
+                <li class="list-group-item">
+                    {{ ko.access.toyono.opening_times }}
+                </li>
+                    <li class="list-group-item">
+                        <ul class="list-unstyled">
+                            <li>{{ ko.access.toyono.postcode }}</li>
+                            <li>{{ ko.access.toyono.address1 }}</li>
+                            <li>{{ ko.access.toyono.address2 }}</li>
+                        </ul>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- map column 2-->
+        <div class="col-lg-6">
+
+            <div id="map2"></div>
+
+        </div>
+    </div>
+
+</div>
+{% include 'mapscript.html' %}

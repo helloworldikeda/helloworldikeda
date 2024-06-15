@@ -1,0 +1,17 @@
+{
+    "ikeda": {
+        "school_name": "池田校",
+        "opening_times": "月火水金 13:00 ~ 20:00",
+        "postcode": "563-0025",
+        "address1": "大阪府池田市城南1−4−１",
+        "address2": "SUビル４階"
+    },
+    "toyono": {
+        "school_name": "豊能町教室",
+        "opening_times": "日曜日 09:00 ~ 12:00、木曜日　16:30 ~ 19:30",
+        "postcode": "563-0102",
+        "address1": "大阪府豊能郡豊能町ときわ台５丁目９−３",
+        "address2": "フリーステーション"
+    },
+    "no_sales_please": "新規お問合せのお客様、生徒様専用電話の為セールス等はご遠慮願います。"
+}

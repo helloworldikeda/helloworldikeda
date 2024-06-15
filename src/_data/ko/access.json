@@ -1,0 +1,17 @@
+{
+    "ikeda": {
+        "school_name": "이케다 학교",
+        "opening_times": "월요일, 화요일, 수요일, 금요일 13:00 ~ 20:00",
+        "postcode": "563-0025",
+        "address1": "Osaka, Ikeda, Jonan 1-4-1",
+        "address2": "SU Building 4F"
+    },
+    "toyono": {
+        "school_name": "도요노초 교실",
+        "opening_times": "일요일 09:00 ~ 12:00, 목요일 16:30 ~ 19:30",
+        "postcode": "563-0102",
+        "address1": "Osaka, Toyono-gun, Toyono-cho, Tokiwadai 5-9-3",
+        "address2": "FreeStation"
+    },
+    "no_sales_please": "새로운 문의 고객님과 학생님 전용 전화번호입니다. 영업은 삼가해주시기 바랍니다."
+}

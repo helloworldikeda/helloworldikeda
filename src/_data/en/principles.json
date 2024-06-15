@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        
+        "title": "Principles",
+        "description": "At hello world, we operate based on the 4 'P's, the core principles of creative learning according to the Lifelong Kindergarten laboratory at MIT in the United States. At our school, learners develop their ability to learn on their own."
+    },
+    {
+        "id": 2,
+       
+        "title": "Projects",
+        "description": "Creativity is one of the most important skills in programming. Project-based learning enhances creativity and deepens understanding."
+    },
+    {
+        "id": 3,
+        
+        "title": "Passion",
+        "description": "Learners are more focused and engaged in projects that interest them. We work on a variety of projects such as games and animations, focusing on those that interest the learner."
+    },
+    {
+        "id": 4,
+        
+        "title": "Peers",
+        "description": "Learners acquire social communication skills through creativity. They can create while cooperating, collaborating, and sharing with others."
+    },
+      {
+        "id": 5,
+        
+        "title": "Play",
+        "description": "The Lifelong Kindergarten group sees play 'not as an activity, but rather as an attitude: a way of engaging with the world'. Playfulness is described as 'constantly experimenting, trying new things, taking risks, and testing the boundaries'."
+    }
+]
+
+     
+
+
+          
+
+
+
+
+
+
+
+
+
+
+

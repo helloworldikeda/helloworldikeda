@@ -1,6 +1,7 @@
 const pluginSEO = require("eleventy-plugin-seo");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setDataDeepMerge(false);
   eleventyConfig.addWatchTarget("./src/css/");
   eleventyConfig.addWatchTarget("./src/images/");
   eleventyConfig.addWatchTarget("./src/js/");
@@ -17,6 +18,7 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "public"
     },
-    markdownTemplateEngine: "njk",
+    
+    htmlTemplateEngine: "liquid"
   };
 };

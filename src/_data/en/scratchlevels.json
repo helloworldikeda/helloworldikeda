@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "level": "Scratch Level 1",
+        "title": "Introduction to Scratch",
+        "subtitle": "Sprites, Scripts, Loops",
+        "description": "Introduction to Scratch is a course for beginners. Learn how to add code, costumes, and sounds to sprites when creating animations, games, stories, and music.",
+        "img": "scratchlevel1.png"
+        
+    },
+   {
+        "id": 2,
+        "level": "Scratch Level 2",
+        "title": "More Scratch",
+        "subtitle": "Messages, Choices, Variables",   
+        "description": "Expand on the basics learned in Introduction to Scratch. With More Scratch, we create apps, games, and simulations using message broadcasts, conditions like 'if...' and 'if... then... else...' and variables.",
+        "img": "scratchlevel2.png"
+    },
+    {
+        "id": 3,
+        "level": "Scratch Level 3",
+        "title": "Advanced Scratch",
+        "subtitle": "Clones, My Blocks, Booleans",   
+        "description": "Build on the skills you learned in Introduction to Scratch and More Scratch. Advanced Scratch uses Boolean logic, functions, cloning, and more to create apps, games, computer-generated art, and simulations.",
+        "img": "scratchlevel3.png"
+    }
+]
+
