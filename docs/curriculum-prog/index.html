@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <title>カリキュラム｜プログラミング - hello world</title>
+
+<meta name="description" content="英語でプログラミング＆英会話　ー　大阪府池田市">
+<meta name="robots" content="index,follow">
+<meta name="author" content="hello world">
+
+<link rel="canonical" href="https://helloworldikeda.com/curriculum-prog/">
+
+<meta property="og:title" content="カリキュラム｜プログラミング - hello world">
+<meta property="og:type" content="website">
+
+<meta property="og:url" content="https://helloworldikeda.com/curriculum-prog/">
+<meta property="og:description" content="英語でプログラミング＆英会話　ー　大阪府池田市">
+<meta property="og:image" content="images/ogimg.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@helloworldikeda">
+<meta name="twitter:url" content="https://helloworldikeda.com/curriculum-prog/">
+<meta name="twitter:title" content="カリキュラム｜プログラミング - hello world">
+<meta name="twitter:description" content="英語でプログラミング＆英会話　ー　大阪府池田市">
+<meta name="twitter:image" content="images/ogimg.png">
+
+
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-TSW655TN56"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-TSW655TN56');
+        </script>
+        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-TSW655TN56"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-TSW655TN56');
+        </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>カリキュラム｜プログラミング</title>
+
+        <link id="favicon" rel="icon" href="/images/icons/favicon.svg" type="image/x-icon"/>
+        <!-- import bootstrap stylesheet -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+        <!-- import leaflet CSS stylesheet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+        <!-- Leaflet.js - Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <link rel="stylesheet" href="/css/styles.css">
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="/" class="navbar-brand">
+                        <img width="29" class="nav--logo d-inline-block align-text-bottom me-1" src="/images/icons/logo.png"/>
+                        <!-- -->
+                        hello world<span class="caret">&nbsp&nbsp</span>
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link active" aria-current="page">
+                                    ホーム
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/features" class="nav-link">
+                                    特徴
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/courses" class="nav-link">
+                                    コース
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    カリキュラム
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="/curriculum-eng">英会話</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/curriculum-prog">学べるプログラミングスキル</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/scratchlevels">スクラッチコースのレベル</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/access" class="nav-link">
+                                    アクセス
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/principles" class="nav-link">理念
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/schedule" class="nav-link">スケジュール
+                                </a>
+                            </li>
+                             <li class="nav-item">
+                                <a href="/jobs" class="nav-link">Work with us
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="rasp-text">English | 한국어</span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    
+                                    <li>
+                                        <a class="dropdown-item" href="/en/">English</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/ko/">한국어</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- end collapse-->
+                    
+                    <!-- start SNS-->
+                    <span class="nav-item sns-content">
+                        <a href="https://www.instagram.com/helloworld_ikeda" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-instagram fs-4 flex-shrink-0 ms-2 "></i>
+                        </a>
+                    </span>
+                    <span class="nav-item sns-content">
+                        <a href="https://line.me/ti/p/Xk4yr5s9FA" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-line fs-4 flex-shrink-0 ms-2 "></i>
+                        </a>
+                    </span>
+
+                    <span class="nav-item sns-content">
+                        <a href="tel:08022385980" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-telephone-fill fs-4 flex-shrink-0 ms-2"></i>
+                        </a>
+                    </span>
+
+                    <!-- end SNS-->
+                </div>
+            </nav>
+        </header>
+
+        
+
+<main class="container">
+
+    <div class="container mt-4 mb-4">
+        <div id="class-container" class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- content here -->
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/algorithms.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">アルゴリズム</h5>
+                            <p>アルゴリズムは、計算や問題解決のための明確に定義された手順の集まりです。プログラミングでは、特定のタスクや問題を解決するための手順や手続きの一連を指します。コンピュータが理解し、実行できる形で表現され、正確かつ効率的な問題解決を可能にします。アルゴリズムはプログラミングの基本的な概念であり、学習者が論理的に考え、タスクに適切に対処する能力を築く上で重要です。プログラミングにおいて、アルゴリズムはシーケンシング、選択、反復という三つの基本的な制御構造を用いて表現できます。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/sequencing.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">シーケンシング</h5>
+                            <p>シーケンシングは、プログラム内で特定のタスクを正確に実行するために順序立てられた手順や命令の並びを指します。プログラミングにおいて、シーケンシングは各ステップが順番に実行されることを確実にするために用います。この概念は、コンピュータに対して特定の順序で命令を与えることで、期待した結果を得るのに重要です。シーケンシングはプログラムの基本的な概念であり、学習者がプログラムの論理を理解し、タスクを適切に処理する能力を養う上で不可欠です。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/selection.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">選択（Selection）</h5>
+                            <p>選択はプログラミングにおいて重要な概念であり、特定の条件に基づいてプログラムが異なる動作や手順を実行する能力を指します。条件分岐とも呼ばれ、これによってプログラムは特定の条件が真であるか偽であるかによって、異なる経路を選択します。選択の概念は、プログラムが柔軟で動的な動作を示す上で不可欠であり、アルゴリズムやプログラムの中で問題に対処するための効果的な手段を提供します。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/iteration.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">反復（Iteration）</h5>
+                            <p>プログラミングにおける反復とは、同じ一連の操作を繰り返すことを意味します。それはリピートボタンを押すようなものです：特定の条件が満たされる場合、同じ一連の命令を実行し続けます。これにより、作業が整理され、同じ命令を繰り返し書く手間が省けます。反復をコーディングに取り入れることで、プログラムが柔軟になり、さまざまな種類の問題に対処できるようになります。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/userinteraction.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">ユーザーインタラクション</h5>
+                            <p>ユーザーインタラクションは、Scratchプロジェクトにおいて、プロジェクトがユーザーとコミュニケーションを取り、ユーザーの入力や操作に反応する機能を指します。Scratchでは、さまざまなブロックを使って、キーボード入力やマウスクリック、その他のイベントに対するプロジェクトの反応をプログラムすることができます。ユーザーインタラクションを導入することで、プロジェクトを魅力的かつ使いやすくし、ユーザーがアニメーション、ゲーム、またはストーリーなどの作品に参加できるようになります。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/variables.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">変数（Variables）</h5>
+                            <p>プログラミングでは、変数は情報を保存したり変えたりするための容器のようなものです。数字や単語などのデータを保持し、計算や更新などの操作を行うことができます。たとえば、ゲームのスコアを追跡したり、何かの位置を覚えておくために変数を使うことができます。変数は、プログラミングを柔軟かつ多目的にする便利なツールです。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/functions.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">関数（My Blocks）</h5>
+                            <p>関数（My Blocks）は、Scratchプロジェクトで便利な考え方です。同じコードを何度も繰り返し使えるようにします。関数を作ると、複数の行のコードを一つのブロックにまとめて、プロジェクト中で何度も使うことができます。たとえば、特定のアクションや計算を行う関数を作って、必要な時に使うことができます。これによって、プログラムが整理され、大きなプロジェクトを管理しやすくなります。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/parallelism.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">並列処理（parallelism）</h5>
+                            <p>並列処理は、プログラミングプロジェクトで同時に複数のことを行うことです。Scratchでは、異なるコードブロックが同時に動作することで実現されます。たとえば、複数のキャラクターが同時に動く場合や、複数のイベントが同時に発生する場合などに、これが起こります。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/datastructures.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">データ構造（data structures）</h5>
+                            <p>プログラミングでは、データ構造が情報の整理や管理に役立ちます。Scratchのようなコーディング環境では、リストや変数を使ってさまざまな種類のデータを構造化できます。たとえば、これによりキャラクターの位置やゲームのスコアの管理が簡単になります。データ構造を理解することで、プログラムの効率が向上し、複雑なタスクの処理が簡素化されます。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/debugging.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">デバッギング</h5>
+                            <p>デバッグはプログラミングの一連のプロセスです。プログラム内のエラーや問題を特定し、修正する作業を指します。Scratchでは、ブロックの正確な配置やプロジェクト内の条件を確認することに焦点を当てています。エラーが発生した場合、デバッグにはその原因を特定し、適切な修正を行うことが含まれます。デバッグを理解することで、プロジェクトがスムーズに動作し、望ましい結果を得ることができます。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/codeorg.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">コードの構造化</h5>
+                            <p>コードの構造化はプログラミングにおける概念です。これは、コードを整理し、理解しやすく、メンテナンスがしやすい形に整えることを指します。コードを小さなモジュールや関数に分割し、関連する部分をグループ化することで、効果的な構造が構築されます。このアプローチにより、プログラムはより直感的に理解でき、将来の変更にも柔軟に対応できるようになります。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="ratio ratio-16x9"><img
+                                src="/images/oop.png"
+                                class="card-img-top"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">オブジェクト指向プログラミング</h5>
+                            <p>オブジェクト指向プログラミング（OOP）では、「オブジェクト」とは特定の動きや特徴を持つものを指します。Scratchプロジェクトでは、スプライトやクローンなどがそれぞれ独自の動作や特性を持っています。各スプライトやクローンは、メッセージのやり取りを通じてコミュニケーションができるように、OOPのオブジェクトのように考えることができます。これにより、Scratchプロジェクト内でOOPの特徴である、整理されたパッケージへの収納や相互作用が表現されます。</p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+            
+        </div>
+    </div>
+
+</main>
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
